@@ -3,6 +3,15 @@
     "dao": {
       "main": "src/main.mo",
       "type": "motoko"
+    },
+    "token": {
+      "main": "src/token_faucet/main.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "mops sources"
     }
   }
 }

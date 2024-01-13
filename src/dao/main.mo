@@ -66,7 +66,7 @@ actor DAO {
 
     // Vote for the given proposal 
     // Returns an error if the proposal does not exist or the member is not allowed to vote
-    public shared ({ caller}) func voteProposal(proposalId : ProposalId, vote : Vote) : async Result<(),Text> {
+    public shared ({ caller }) func voteProposal(proposalId : ProposalId, vote : Vote) : async Result<(),Text> {
         return #err("Not implemented");
     };
 
