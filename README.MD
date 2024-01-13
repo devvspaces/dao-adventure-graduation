@@ -105,9 +105,9 @@ You are required to use the **Motoko Bootcamp Token**, a free, educational token
 
 For new members of your DAO, mint tokens. Burn them when creating proposals through inter-canister calls to the token faucet canister.
 
-Find the token faucet source code in the [token_faucet](./src/token_faucet/main.mo) folder of this repository. Deploy it locally for building and testing. For deployment on the **Internet Computer** or **Playground**, you are required to use the existing token faucet on the **Internet Computer** with the canister ID `dg2ce-tqaaa-aaaah-abz6q-cai`.
+Find the token faucet source code in the [token_faucet](./src/token_faucet/main.mo) folder of this repository. Deploy it locally for building and testing. For deployment on the **Internet Computer** or **Playground**, you are required to use the existing token faucet on the **Internet Computer** with the canister ID `jaamb-mqaaa-aaaaj-qa3ka-cai`.
 
-Access the interface of the deployed token faucet canister [here](https://dashboard.internetcomputer.org/canister/dg2ce-tqaaa-aaaah-abz6q-cai).
+Access the interface of the deployed token faucet canister [here](https://dashboard.internetcomputer.org/canister/jaamb-mqaaa-aaaaj-qa3ka-cai).
 
 ## Types ⚙️
 
