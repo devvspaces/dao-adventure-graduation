@@ -100,13 +100,14 @@ public type Stats = {
 > The `logo` and `picture` fields are required to be encoded as PNG. The logo should be a square image of 100x100 pixels. The picture should be a 16:9 image of 1920x1080 pixels.
 
 ## Token faucet 💰
-You are required to use the **Motoko Bootcamp Token**. This a free and educational token faucet. You can mint as much tokens as you need. This token has no real economical value and is only used for educational purposes.
 
-This means you'll have to perfom inter-canister calls to the token faucet canister to mint tokens for new members and burn tokens when creating a proposal. <br/>
+You are required to use the **Motoko Bootcamp Token**, a free, educational token faucet. It allows unlimited minting but holds no real economic value; it's solely for educational use.
 
-The source code of the token faucet can be found in the [token_faucet](./src/token_faucet/main.mo) folder of this repository.
+For new members of your DAO, mint tokens. Burn them when creating proposals through inter-canister calls to the token faucet canister.
 
-You can access to the interface of the token faucet [here](https://dashboard.internetcomputer.org/canister/dg2ce-tqaaa-aaaah-abz6q-cai).
+Find the token faucet source code in the [token_faucet](./src/token_faucet/main.mo) folder of this repository. Deploy it locally for building and testing. For deployment on the **Internet Computer** or **Playground**, you are required to use the existing token faucet on the **Internet Computer** with the canister ID `dg2ce-tqaaa-aaaah-abz6q-cai`.
+
+Access the interface of the deployed token faucet canister [here](https://dashboard.internetcomputer.org/canister/dg2ce-tqaaa-aaaah-abz6q-cai).
 
 ## Types ⚙️
 
