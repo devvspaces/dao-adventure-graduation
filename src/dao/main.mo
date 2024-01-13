@@ -27,7 +27,7 @@ actor DAO {
     };
 
     // Register a new member in the DAO with the given name and principal of the caller
-    // Also airdrop 100 MBC tokens to the new member
+    // Airdrop 10 MBC tokens to the new member
     // New members are always Student
     // Returns an error if the member already exists
     public shared ({ caller }) func registerMember(name : Text) : async Result<(),Text> {
